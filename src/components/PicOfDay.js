@@ -1,16 +1,14 @@
 import React from "react";
+import ImageLink from "./ImageLink.js";
+import ImageOverlay from "./ImageOverlay.js";
 
-export default function ({largePic, basePic, explanation}) {
+export default function PicOfDay ({title, basePic, largePic, explanation}) {
    return (
       <article className="apod-container">
-         <a href={largePic} target="_blank">
-            <img src={basePic}
-               alt="See Explanation.  Clicking on the picture will download the highest resolution version available."
-            />
-         </a>
-         <div className="overlay">
-            <p><b>Explanation: </b>{explanation}</p>
-         </div>
+         <ImageLink basePic={basePic} largePic={largePic}
+            altText={"See Explanation.  Clicking on the picture will download the highest resolution version available."}
+         />
+         <ImageOverlay title={title} explanation={explanation} />
       </article>
    );
 };
