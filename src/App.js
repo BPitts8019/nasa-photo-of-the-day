@@ -52,7 +52,7 @@ function App() {
             app! Have fun 🚀!
          </p> */}
          <header>
-            <p>NASA Astronomy Picture of the Day</p>
+            <h1>NASA Astronomy Picture of the Day</h1>
          </header>
          {
             (apiData)
