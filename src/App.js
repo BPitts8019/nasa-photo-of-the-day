@@ -65,7 +65,7 @@ function App() {
          }
          <footer>
             <i className="far fa-copyright"></i>
-            <p>NASA APOD 2019</p>
+            <h6> NASA APOD 2019</h6>
          </footer>
       </div>
    );
