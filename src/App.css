@@ -74,3 +74,16 @@
    display: flex;
    justify-content: center;
 }
+
+.App .loading {
+   height: 300px;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.App .loading .spinner-grow {
+   width: 10rem;
+   height: 10rem;
+}
