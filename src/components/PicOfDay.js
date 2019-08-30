@@ -1,6 +1,6 @@
 import React from "react";
 import ImageLink from "./ImageLink.js";
-import ImageOverlay from "./ImageOverlay.js";
+import Overlay from "./ImageOverlay.js";
 
 export default function PicOfDay ({title, basePic, largePic, explanation}) {
    return (
@@ -12,8 +12,9 @@ export default function PicOfDay ({title, basePic, largePic, explanation}) {
             basePic={basePic} 
             largePic={largePic}
             altText={"See Explanation.  Clicking on the picture will download the highest resolution version available."}
+            target="_blank"
             overlay={
-               <ImageOverlay 
+               <Overlay 
                   title={title} 
                   explanation={explanation} 
                />

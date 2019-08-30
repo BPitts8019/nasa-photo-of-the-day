@@ -9,16 +9,20 @@
    justify-content: center;
 }
 
-.App .apod-container img, 
+/* .App .apod-container img {
+   transition: 0.5s ease-in-out;
+   width: auto;
+} */
+/* .App .apod-container img, 
 .App .apod-container .inner {
    transition: 0.5s ease-in-out;
-}
+} */
 
-.App .apod-container .image img {
+/* .App .apod-container .image img {
    width: auto;
-}
+} */
 
-.App .apod-container .overlay {
+/* .App .apod-container .overlay {
    color: white;
    width: 100%;
    height: 100%;
@@ -28,9 +32,9 @@
 
    display: flex;
    justify-content: center;
-}
+} */
 
-.App .apod-container .inner {
+/* .App .apod-container .inner {
    border: 2px solid lightslategrey;
    border-radius: 4rem;
    border-top-right-radius: 0;
@@ -42,19 +46,19 @@
    top: 50%;
    transform: translateY(-50%);
    -ms-transform: translateY(-50%);
-}
+} */
 
-.App .apod-container .inner > * {
+/* .App .apod-container .inner > * {
    padding: 2rem;
-}
+} */
 
-.App .apod-container .inner h2 {
+/* .App .apod-container .inner h2 {
    border-bottom: 2px solid lightslategrey;
-}
+} */
 
-.App .apod-container .inner p {
+/* .App .apod-container .inner p {
    line-height: 20px;
-}
+} */
 
 .App .apod-container:hover img {
    opacity: 0.4;
