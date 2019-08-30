@@ -19,8 +19,8 @@ Commit your code regularly and meaningfully. This helps both you and your team l
 
 This homework is a continuation of the work you have done previously.
 
-- [ ] CD into your old project
-- [ ] Continue to make changes and push to the same branch
+- [x] CD into your old project
+- [x] Continue to make changes and push to the same branch
 
 
 Follow these steps for completing your project.
@@ -40,8 +40,8 @@ Follow these steps for completing your project.
 
 ## _MVP Requirements:_
 
-- Refactor your project using a component library that was covered in class (SemanticUI or styled-components).
-- Implement and use at least a few styled components to beautify your project.
+- [x] Refactor your project using a component library that was covered in class (SemanticUI or styled-components).
+- [x] Implement and use at least a few styled components to beautify your project.
 
 
 ## Stretch Problems
