@@ -6,14 +6,18 @@ export default function PicOfDay ({title, basePic, largePic, explanation}) {
    return (
       <article className="apod-container">
          <ImageLink 
+            width="1024"
+            height="576"
             className="image" 
             basePic={basePic} 
             largePic={largePic}
             altText={"See Explanation.  Clicking on the picture will download the highest resolution version available."}
-         />
-         <ImageOverlay 
-            title={title} 
-            explanation={explanation} 
+            overlay={
+               <ImageOverlay 
+                  title={title} 
+                  explanation={explanation} 
+               />
+            }
          />
          {/* <i class="fas fa-angle-double-left fa-4x"></i>
          <i class="fas fa-angle-double-right fa-4x"></i> */}
